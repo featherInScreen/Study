@@ -21,7 +21,7 @@
     <!-- 注意prefix前后的/不要漏了，WebRoot类似是根目录 -->
     <bean id="viewResolver"
           class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="prefix" value="/WEB_INF/jsp/" />
+        <property name="prefix" value="/" />
         <property name="suffix" value=".jsp" />
     </bean>
 
