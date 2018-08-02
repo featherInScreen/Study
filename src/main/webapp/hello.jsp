@@ -1,8 +1,8 @@
 <html>
     <head>
-           <title>第一个 JSP 程序</title>
+           <title>First JSP</title>
     </head>
     <body>
-          We are the world
+          Hello, ${name}
     </body>
 </html>
